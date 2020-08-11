@@ -1,34 +1,111 @@
+html{
+    background-color: rgb(26, 25, 25);
+}
+
 #all{
-    height: 100vh;
+    
 }
 
 #mynav{
-    height: 10vh;
-    background-color: rgb(41, 39, 39);;
+    min-height: 10vh;
+    background-color: rgb(41, 39, 39);
+    border-bottom: 1px solid black;
 }
+
+#navtitle{
+    margin-top: 10px;
+}
+
 .mytitle{
     font-size: 30px;
     color: white;
-    margin-top: 10px;
+    padding-left: 10px;
 }
 .mytitle:hover{
     text-decoration: none;
     color: white;
 }
+ #userlink{
+    padding-top: 15px;
+ }
+
+#loginimg{
+    
+    float: right;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 35px;
+    width:35px;
+}
 
 #mysidebar{
-    height: 90vh;
     font-size: 20px;
     width: 70px;
     background-color: rgb(41, 39, 39);
-    
+    min-height: 85vh;
 }
 
 #mysidebar a{
     color: rgb(148, 145, 145);
 }
 
-#mysidebar .nav-item{
-    padding-top: 20px;
-    padding-left: 10px;
+.nav-item:hover{
+    background-color: rgba(0, 0, 0, 0.376);
 }
+
+#mysidebar .nav-item{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#mycontent{
+    background-color: rgb(211, 211, 211);
+}
+
+#myfooter{
+    background-color: rgb(41, 39, 39);
+    color: gray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    min-height: 5vh;
+    border-top: 1px solid black;
+}
+
+#myfooter h6{
+    width: 100vw;
+    text-align: center;
+}
+
+#userlink:hover .useroption {
+    display: block;
+  }
+
+  .useroption {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: right;
+  }
+
+  #loginimgbig{
+      width: 100%;
+      border: 1px solid rgb(41, 39, 39);
+  }
+
+
+  .loginoption{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(41, 39, 39);
+  }
+  .loginoption a{
+      text-align:center;
+      color: white;
+      text-decoration: none;
+  }
